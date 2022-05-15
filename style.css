@@ -1,0 +1,119 @@
+body {
+  background-color: lightpink;
+}
+
+header img {
+  top: 50%;
+  left: 50%;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.footer {
+  text-align: center;
+  position: sticky;
+  top: 100vh;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*article {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+*/
+
+#logo_container {
+  width: 70%;
+  aspect-ratio: 335.67/217.96;
+  position: absolute;
+  top: 25%;
+  left: 12%;
+}
+
+#logo_sprite {
+  width: 50%;
+  height: 50%;
+  background-image: url(billeder/logo.svg);
+  background-size: cover;
+}
+
+#infotekst_container {
+  width: 80%;
+  aspect-ratio: 712/130.36;
+  position: absolute;
+  top: 100%;
+  left: 9.5%;
+}
+
+#infotekst_sprite {
+  width: 50%;
+  height: 50%;
+  background-image: url(billeder/infotekst.svg);
+  background-size: cover;
+
+  animation-name: puls_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes puls_kf {
+  0% {
+    transform: scale(0.7);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+#striber_container {
+  width: 60%;
+  aspect-ratio: 350/550;
+  position: absolute;
+  top: 300%;
+  left: 88%;
+}
+
+#striber_sprite {
+  width: 20%;
+  height: 50%;
+  background-image: url(billeder/banner-kopi.png);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-top: 70px;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin: 40px;
+  gap: 40px;
+}
+
+.col1 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+.stor_tekst {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.5rem;
+  margin-top: -8px;
+}
