@@ -1,5 +1,5 @@
 body {
-  background-color: lightpink;
+  background-color: rgb(253, 213, 219);
 }
 
 header img {
@@ -16,7 +16,8 @@ header img {
   color: white;
 }
 
-img {
+img,
+video {
   max-width: 100%;
 }
 
